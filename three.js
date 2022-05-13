@@ -1,5 +1,11 @@
 function success(pos) {
+  console.log(!!pos.coords);
+  if(pos.coords) {
+    document.querySelector('.loading_gif').style.display = 'none';
+    document.getElementById('map').style.display = 'block';
+  }
   let { latitude, longitude } = pos.coords;
+
 
   console.log(latitude, longitude);
 
@@ -24,4 +30,4 @@ function data() {
   navigator.geolocation.getCurrentPosition(success, error);
 }
 
-// data();
+data();
