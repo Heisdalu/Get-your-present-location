@@ -21,6 +21,11 @@ function success(pos) {
 function error(err) {
   console.log(err.message);
   document.getElementById("map").style.display = "none";
+
+  if (err.message === "User denied Geolocation") {
+    return document.querySelector('.pic').textContent = 'Please turn on your Location😉'
+  }
+
   document.querySelector(".pic").textContent = err.message;
 }
 
