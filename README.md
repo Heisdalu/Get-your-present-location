@@ -7,4 +7,4 @@
 - CSS
 - JAVASCRIPT
 
- Live Site: [daalu-location.netlify.app](daalu-location.netlify.app)
+ Live Site: [https://daalu-location.netlify.app](https://daalu-location.netlify.app)
