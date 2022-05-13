@@ -1,7 +1,7 @@
 # LOCATION APP
-- Get your present location displated on a well visible map.
+- Get your present location displayed on a visible map.
 
-# Used using
+# Built using
 - Leaflet.js
 - HTML
 - CSS
