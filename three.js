@@ -24,4 +24,4 @@ function data() {
   navigator.geolocation.getCurrentPosition(success, error);
 }
 
-data();
+// data();
